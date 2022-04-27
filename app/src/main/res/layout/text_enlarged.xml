@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFBEC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/telugu_word_text_view"
+        tools:text="Okati"
+        android:textColor="#4B4B4B"
+        android:textSize="65sp"
+        style="@style/CategoryStyleEnlarged"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/english_word_text_view"
+        android:textSize="45sp"
+        android:textStyle="normal"
+        android:textColor="#2C2C2C"
+        tools:text="One"
+        style="@style/CategoryStyleEnlarged"/>
+</LinearLayout>
